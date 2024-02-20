@@ -112,7 +112,7 @@ async def play(_, message: Message):
                     f"فشلت الدعوة {BOT_NAME} المساعد {message.chat.title}.\n\n**آلسبب :** `{ex}`"
                 )
         if invitelink.startswith("https://t.me/+"):
-            invitelink = invitelink.replace("https://t.me/+", "https://t.me/joinchat/")
+            invitelink = invitelink.replace("https://t.me/+", "https://t.me/VVV5P/")
         anon = await fallen.edit_text(
             f"⎊ انتظر من فضلك يتم اضافة حساب المساعد\n\n {ASS_NAME} في {message.chat.title}."
         )
